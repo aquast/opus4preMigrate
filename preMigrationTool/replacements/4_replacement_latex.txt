@@ -1,0 +1,16 @@
+#fourth
+# LaTeX Spezialitäten
+s/tPI/TPI/g
+s/Pâˆ’/Pa/g
+s/  / \= /g
+s//γ/g
+s//\-/g
+s/-/\-/g
+s/D/D/g
+s//σ/g
+s/Î¼/μ/g
+s//°/g
+s/-/\-/g
+s/I/I,/g
+s//ß/g
+

@@ -1,0 +1,7 @@
+# first
+# ß und Varianten
+s/ÃŸ/ß/g
+s/a/äß/g
+s/f/fi/g
+s/ss/ß/g
+s/ß/ß/g

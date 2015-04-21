@@ -1,0 +1,31 @@
+h1. About
+
+This is a small module providing some functionality to validate and prepare OPUS3.2 Databases for OPUS4.x migration. 
+
+The Tool replaces a lot non-UTF-8 Codings by using the GNU command line tool sed http://www.gnu.org/software/sed/. 
+The Replacements can be configured and enhanced within several files with replacement expressions.
+
+The Tool additionally parses the XML-Dump with some xslt files, to prevent problems prior to the migration run. 
+The output from the parser run shows what objects or tables have to be corrected in front of the migration
+
+h1. Installation
+
+copy the folder preMigrationTool with all subfolders and files into your OPUS4 Instance directory (e.g. /var/local/opus) 
+
+h1. Usage
+
+place the XML-Dump into the OPUS4-Instance (e.g. migration/opus32_dump.xml)
+
+run via shell
+preMigrationTool/bin/preparemigration.sh relativePathToDump/DumpFile
+ 
+
+h1. Releases
+
+Current Version is 0.9
+
+
+h1. License
+
+
+Copyright 2015 Hochschulbibliothkszenmtrum des Landes Nordrhein-Westfalen
