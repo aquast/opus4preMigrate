@@ -16,7 +16,9 @@ h1. Usage
 
 # place the XML-Dump into the OPUS4-Instance (e.g. migration/opus32_dump.xml)
 # run via shell
-<code>preMigrationTool/bin/preparemigration.sh relativePathToDump/DumpFile<code>
+<code>
+preMigrationTool/bin/preparemigration.sh relativePathToDump/DumpFile
+<code>
 # use output to prepare XML-File for Migration
 
 Example-Output:
