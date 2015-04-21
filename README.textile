@@ -14,11 +14,33 @@ copy the folder preMigrationTool with all subfolders and files into your OPUS4 I
 
 h1. Usage
 
-place the XML-Dump into the OPUS4-Instance (e.g. migration/opus32_dump.xml)
+# place the XML-Dump into the OPUS4-Instance (e.g. migration/opus32_dump.xml)
+# run via shell
+<code>preMigrationTool/bin/preparemigration.sh relativePathToDump/DumpFile<code>
+# use output to prepare XML-File for Migration
 
-run via shell
-preMigrationTool/bin/preparemigration.sh relativePathToDump/DumpFile
- 
+Example-Output:
+
+<code>
+STEP 1: Processing replacements to create valide xml                                                                                                                                             
+- Process replacement file: 5_replacement_ligaturen.txt                                                                                                                                          
+- Process replacement file: 1_replacement_eszett.txt                                                                                                                                             
+- Process replacement file: 4_replacement_latex.txt
+- Process replacement file: 2_replacement_umlaute.txt
+- Process replacement file: 3_replacement_satzzeichen.txt
+Finished replacements for valide xml
+
+STEP 2: Validate xml file
+Finished validation
+STEP 3: Check consistency of xml file
+- Found the following lines need to be modified or skipped for consistency:
+Opus3-Id:10 - Both have ger
+Finished consistency check
+<code>
+
+In case of that result you have to find the object with ID 10 and replace one of the ger either in description_language or description2_language. Otherwise the Solr-Indexing will fail.
+For more detailed information see https://www.kobv.de/entwicklung/software/opus-4/dokumentation/
+
 
 h1. Releases
 
