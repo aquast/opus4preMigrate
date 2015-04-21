@@ -23,7 +23,7 @@ preMigrationTool/bin/preparemigration.sh relativePathToDump/DumpFile
 
 Example-Output:
 
-<code>
+<code><pre>
 STEP 1: Processing replacements to create valide xml                                                                                                                                             
 - Process replacement file: 5_replacement_ligaturen.txt                                                                                                                                          
 - Process replacement file: 1_replacement_eszett.txt                                                                                                                                             
@@ -38,7 +38,7 @@ STEP 3: Check consistency of xml file
 - Found the following lines need to be modified or skipped for consistency:
 Opus3-Id:10 - Both have ger
 Finished consistency check
-</code>
+</pre></code>
 
 In case of that result you have to find the object with ID 10 and replace one of the ger either in description_language or description2_language. Otherwise the Solr-Indexing will fail.
 For more detailed information see https://www.kobv.de/entwicklung/software/opus-4/dokumentation/
