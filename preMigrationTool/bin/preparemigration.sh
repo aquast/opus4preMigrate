@@ -1,11 +1,24 @@
 #!/bin/bash
+
+##
+# This file is part of the preMigration Suite for OPUS4
 #
-# This file is part of the preMigration-Suite for OPUS4
-#
-# @author Andres Quast, Hochschulbibliothekszentrum NRW
+# @author Andres Quast 
 # @email quast@hbz-nrw.de
-# @license     http://www.gnu.org/licenses/gpl.html General Public License
+# @copyright 2015 - 2017 Hochschulbibliothkszentrum des Landes Nordrhein-Westfalen
+# @licence  http://www.gnu.org/licenses/gpl.html General Public License
 #
+# LICENCE
+# This is free software; you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation; either version 2 of the Licence, or any later version.
+# preMigration Suite is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+# FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details. You should have received a copy of the GNU General Public License
+# along with preMigration Suite; if not, write to the Free Software Foundation, Inc., 51
+# Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
+##
 
 
 path=`pwd`

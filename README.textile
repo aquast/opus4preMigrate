@@ -27,5 +27,5 @@ Current Version is 0.9
 
 h1. License
 
-
+http://www.gnu.org/licenses/gpl.html General Public License
 Copyright 2015 Hochschulbibliothkszenmtrum des Landes Nordrhein-Westfalen
