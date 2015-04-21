@@ -18,7 +18,7 @@ h1. Usage
 # run via shell
 <code>
 preMigrationTool/bin/preparemigration.sh relativePathToDump/DumpFile
-<code>
+</code>
 # use output to prepare XML-File for Migration
 
 Example-Output:
@@ -38,7 +38,7 @@ STEP 3: Check consistency of xml file
 - Found the following lines need to be modified or skipped for consistency:
 Opus3-Id:10 - Both have ger
 Finished consistency check
-<code>
+</code>
 
 In case of that result you have to find the object with ID 10 and replace one of the ger either in description_language or description2_language. Otherwise the Solr-Indexing will fail.
 For more detailed information see https://www.kobv.de/entwicklung/software/opus-4/dokumentation/
